@@ -2,7 +2,13 @@
 
 **目标**：将传统Python后端服务封装为LangChain Tool，探索自动化系统向LLM智能体架构演进的路径。
 
-**技术栈**：Python, LangChain, MySQL, deepseek API
+## 项目结构
+
+## 技术栈
+- **核心框架**：LangChain 0.1.13 (`@tool` 装饰器)
+- **语言模型**：DeepSeek API (`deepseek-chat`)
+- **数据库**：MySQL（当前使用模拟数据确保可运行性）
+- **编程语言**：Python 3.10
 
 ## 文件说明
 - `original_code.py`: 从原项目复制的真实函数（保留原始风格）
@@ -21,4 +27,5 @@
 
 === 测试2: 检查Tool元数据 ===
 工具名称: get_ponds_tool
+
 工具描述: get_ponds_tool() -> list - 查询系统中所有池塘的ID和名称
